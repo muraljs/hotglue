@@ -1,0 +1,25 @@
+{
+  "name": "hotglue",
+  "version": "0.0.1",
+  "description": "Picky full stack hot reloading solution",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigspaeth/hotglue.git"
+  },
+  "keywords": [
+    "hot",
+    "reload",
+    "koa",
+    "browserify"
+  ],
+  "author": "Craig Spaeth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craigspaeth/hotglue/issues"
+  },
+  "homepage": "https://github.com/craigspaeth/hotglue#readme"
+}
