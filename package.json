@@ -1,6 +1,6 @@
 {
   "name": "hotglue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Picky full stack hot reloading solution",
   "main": "index.js",
   "scripts": {
