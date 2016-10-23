@@ -1,6 +1,6 @@
 {
   "name": "hotglue",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Picky full stack hot reloading solution",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,9 @@
     "url": "https://github.com/craigspaeth/hotglue/issues"
   },
   "homepage": "https://github.com/craigspaeth/hotglue#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "zombie": "^4.2.1"
+  },
   "dependencies": {
     "browserify": "^13.1.0",
     "cheerio": "^0.22.0",

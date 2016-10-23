@@ -1,6 +1,6 @@
 const hotglue = require('../')
 
-const app = hotglue({
+const app = module.exports = hotglue({
   relative: __dirname,
   server: {
     main: 'server.js',
