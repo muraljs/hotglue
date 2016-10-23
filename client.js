@@ -1,14 +1,4 @@
 (() => {
-  const reloadServer = (text) =>
-    window.fetch(window.location.href)
-      .then((res) => res.text())
-      .then((text) => {
-        const el = document.createElement('html')
-        el.innerHTML = text
-        const html = el.getElementsByTagName('body')[0].innerHTML
-        window.document.body.innerHTML = html
-      })
-
   const renderLoader = () => {
     document.body.innerHTML += `
       <div
@@ -50,8 +40,6 @@
   ws.onmessage = (event) => {
     if (event.data === 'reload client') {
       reloadClient()
-    } else if (event.data === 'reload server') {
-      reloadServer()
     }
   }
 
