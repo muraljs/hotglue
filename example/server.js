@@ -6,7 +6,7 @@ app.use((ctx) => {
     <html>
       <body>
         <div id="server">
-          Change me and watch it live
+          Change {{this}} on the server and watch it live
         </div>
         <div id="client">
         </div>
