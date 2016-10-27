@@ -82,7 +82,7 @@ describe('hotglue', () => {
     })
   })
 
-  xit('handles missing body', () => {
+  it('handles missing body', () => {
     fs.writeFileSync(serverPath, `
       const Koa = require('koa')
       const app = module.exports = new Koa()
